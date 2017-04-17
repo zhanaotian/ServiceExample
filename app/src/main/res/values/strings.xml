@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServiceExample</string>
+    <string name="title_activity_download">DownloadActivity</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jkwar.serviceSamlep.com.jkwar.serviceExample.MainActivity">
+
+
+    <Button
+        android:id="@+id/start_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="startService" />
+
+    <Button
+        android:id="@+id/stop_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stopService" />
+
+    <Button
+        android:id="@+id/bind_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bindService" />
+
+    <Button
+        android:id="@+id/unbind_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unbindService" />
+
+    <Button
+        android:id="@+id/Proscenium_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProsceniumService" />
+
+    <Button
+        android:id="@+id/Intent_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IntentService" />
+
+    <Button
+        android:id="@+id/dounload_Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dounloadService"
+        />
+</LinearLayout>
